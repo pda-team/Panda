@@ -3,11 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panda.Core", "src\Panda.Core\Panda.Core.csproj", "{099FF10E-E87F-44B7-8B8D-02CDFF1E0A45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Panda.Core", "src\Panda.Core\Panda.Core.csproj", "{099FF10E-E87F-44B7-8B8D-02CDFF1E0A45}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Panda.Uow", "src\Panda.Uow\Panda.Uow.csproj", "{8404A4DB-5B8F-4CFE-B574-9A256BE91C17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panda.FreeSql", "src\Panda.FreeSql\Panda.FreeSql.csproj", "{06592665-6E49-4409-9548-2E6AA2E7D180}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Panda.FreeSql", "src\Panda.FreeSql\Panda.FreeSql.csproj", "{06592665-6E49-4409-9548-2E6AA2E7D180}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{18725E34-3BE6-4022-81AC-5640EE7F80E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C2149471-341C-4528-ADF3-8F4A939C4D4A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{0C3080EA-F805-46BA-A4E0-022A4F05EB3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E9BEB5C1-3BA1-4D6F-AF28-A64A240BFB42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +42,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{099FF10E-E87F-44B7-8B8D-02CDFF1E0A45} = {18725E34-3BE6-4022-81AC-5640EE7F80E6}
+		{8404A4DB-5B8F-4CFE-B574-9A256BE91C17} = {18725E34-3BE6-4022-81AC-5640EE7F80E6}
+		{06592665-6E49-4409-9548-2E6AA2E7D180} = {18725E34-3BE6-4022-81AC-5640EE7F80E6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75831802-53DE-49FF-9652-3BD1BF822FAF}
