@@ -21,9 +21,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{0C30
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E9BEB5C1-3BA1-4D6F-AF28-A64A240BFB42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panda.ConsoleApp", "samples\Panda.ConsoleApp\Panda.ConsoleApp.csproj", "{54D5CB77-5421-4602-A4D7-4F17663FB903}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Panda.ConsoleApp", "samples\Panda.ConsoleApp\Panda.ConsoleApp.csproj", "{54D5CB77-5421-4602-A4D7-4F17663FB903}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panda.SampleLib", "samples\Panda.SampleLib\Panda.SampleLib.csproj", "{1E75B4B0-04EF-4056-A8A0-613735544EAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Panda.SampleLib", "samples\Panda.SampleLib\Panda.SampleLib.csproj", "{1E75B4B0-04EF-4056-A8A0-613735544EAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panda.Core.Tests", "tests\Panda.Core.Tests\Panda.Core.Tests.csproj", "{CC16244E-995F-4561-9E5E-2427CCCA668C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{1E75B4B0-04EF-4056-A8A0-613735544EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E75B4B0-04EF-4056-A8A0-613735544EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E75B4B0-04EF-4056-A8A0-613735544EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC16244E-995F-4561-9E5E-2427CCCA668C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC16244E-995F-4561-9E5E-2427CCCA668C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC16244E-995F-4561-9E5E-2427CCCA668C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC16244E-995F-4561-9E5E-2427CCCA668C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,6 +67,7 @@ Global
 		{06592665-6E49-4409-9548-2E6AA2E7D180} = {18725E34-3BE6-4022-81AC-5640EE7F80E6}
 		{54D5CB77-5421-4602-A4D7-4F17663FB903} = {0C3080EA-F805-46BA-A4E0-022A4F05EB3F}
 		{1E75B4B0-04EF-4056-A8A0-613735544EAE} = {0C3080EA-F805-46BA-A4E0-022A4F05EB3F}
+		{CC16244E-995F-4561-9E5E-2427CCCA668C} = {E9BEB5C1-3BA1-4D6F-AF28-A64A240BFB42}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75831802-53DE-49FF-9652-3BD1BF822FAF}

@@ -10,6 +10,7 @@ namespace Panda.Core.Module
         public Type Type { get; }
         public Assembly Assembly { get; }
         public Type[] Depends { get; }
+        public bool IsVisit { get; set; }
 
         public PdaModuleDescriptor([NotNull]Type moduleType,[NotNull]Type[] depends)
         {

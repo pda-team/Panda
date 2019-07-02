@@ -1,8 +1,8 @@
 ﻿using Panda.Core.Module;
 
-namespace Panda.SampleLib
+namespace Panda.Core.Tests.Module
 {
-    //[DependsOn(typeof(Module5))]
+    [DependsOn(typeof(Module5))]
     public class Module3:PdaModule
     {
         

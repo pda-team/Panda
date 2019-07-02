@@ -16,7 +16,6 @@ namespace Panda.ConsoleApp
             {
                 Console.WriteLine(item.Name);
             }
-            Console.WriteLine("Hello World!");
         }
     }
 }
