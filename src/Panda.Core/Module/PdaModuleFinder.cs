@@ -9,7 +9,7 @@ namespace Panda.Core.Module
     internal class PdaModuleFinder
     {
 
-        public static List<Type> LoadAllModules(Type startModule)
+        public static List<PdaModuleDescriptor> LoadAllModules(Type startModule)
         {
             CheckModuleType(startModule);
             var moduleDescriptors = new List<PdaModuleDescriptor>();
@@ -18,9 +18,7 @@ namespace Panda.Core.Module
 
             var sortModuleDesc = SortModules(moduleDescriptors);
 
-            var result = sortModuleDesc.Select(a=>a.Type).ToList();
-
-            return result;
+            return sortModuleDesc;
         }
 
         /// <summary>
